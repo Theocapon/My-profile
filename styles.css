@@ -1,0 +1,88 @@
+/*Colors and fonts*/
+
+body{
+	background: orange ;
+	color: black;
+	font-family: helvetica;
+	font-size: 17px;
+}
+
+h1{
+	color:black;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: 'Calistoga', cursive;
+}
+
+h2{	color: 212227;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Alatsi', sans-serif;	
+	line-height: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: green;
+	
+}
+a:hover{
+	color:black;
+}
+
+
+
+
+/*custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-green{
+	background-color: green;
+	color:white;
+	padding: 10px 10px;
+	border-radius: 6px;
+}
+
+.btn-green:hover{
+	background-color: orange;
+	color:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color:rgb(220,220,220);
+}
+.list-inline i:hover{
+	color:orange;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
